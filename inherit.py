@@ -1,9 +1,9 @@
 class sushma:
 	something=123
 	def __init__(self):
-		print("this is class sanjay")
+		print("this is parent class")
 	def set(self,anything):
-		sanjay.something=anything
+		sushma.something=anything
 	def get(self):
 		print("something=:",sushma.something)
 class manaswini(sushma):
